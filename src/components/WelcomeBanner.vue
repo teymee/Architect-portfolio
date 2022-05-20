@@ -216,14 +216,14 @@ nav li {
 
 @media screen and (max-width: 420px) {
   .text h1 {
-    font-size: 70px;
+    font-size: 60px;
     font-weight: 700;
   }
 
   .text {
     position: absolute;
     line-height: 50px;
-    top: 200px;
+    top: 230px;
     animation: text 3s;
     animation-delay: 2780ms;
     animation-fill-mode: forwards;
@@ -254,7 +254,7 @@ nav li {
   }
 
   .banner, .overlay{
-    height: 90vh;
+    height: 100vh;
     overflow-x: hidden;
   
   }
@@ -267,8 +267,8 @@ nav li {
   bottom: 0;
   left: 0;
   background-color: rgb(204, 204, 219);
-  height: 80px;
-  width: 80%;
+  height: 60px;
+  width: 70%;
   animation: bar 2s forwards;
   animation-delay: 5s;
   bottom: -200px;
