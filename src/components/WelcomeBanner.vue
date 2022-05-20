@@ -88,6 +88,8 @@ nav li {
 .banner {
   position: relative;
   background-image: url("../assets/banner3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   background-position: 10% 80%;
   height: 100vh;
   animation: banner 1s;
