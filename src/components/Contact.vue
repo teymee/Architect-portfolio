@@ -94,6 +94,7 @@ label {
   justify-content: space-between;
   align-content: center;
   align-items: center;
+    color: #2C3E50;
 }
 
 form {

@@ -93,6 +93,7 @@ nav li {
   background-position: 10% 80%;
   height: 100vh;
   animation: banner 1s;
+    
 }
 
 @keyframes banner {
@@ -156,10 +157,12 @@ nav li {
   }
 }
 
+
 .text h4 {
   font-size: 30px;
   padding-left: 10px;
   font-style: italic;
+
 }
 
 .text h1 {
@@ -253,6 +256,7 @@ nav li {
   .banner, .overlay{
     height: 90vh;
     overflow-x: hidden;
+  
   }
 
   .bottom-bar {

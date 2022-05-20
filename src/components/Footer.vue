@@ -19,6 +19,7 @@ export default {};
             width: 30%;
             margin: auto auto;
             padding-bottom: 40px;
+              color: #2C3E50;
       }
 
       .socials{

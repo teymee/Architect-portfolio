@@ -119,6 +119,7 @@ export default {};
   .offer-list {
     display: block;
     overflow-x: hidden;
+      color: #2C3E50;
   }
 
   .header {

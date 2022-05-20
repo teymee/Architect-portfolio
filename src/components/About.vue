@@ -95,6 +95,7 @@ h2,
   width: 80%;
   justify-content: space-between;
   align-content: center;
+    color: #2C3E50;
 }
 
 .background-text {

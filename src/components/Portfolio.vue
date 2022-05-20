@@ -88,6 +88,7 @@ export default {
   width: 80%;
   margin: auto;
   padding-bottom: 10%;
+    color: #2C3E50;
 }
 .title-decorative-2 {
   line-height: 1.3em;
