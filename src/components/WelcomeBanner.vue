@@ -182,6 +182,7 @@ opacity: 0;
   animation: bar 2s forwards;
   animation-delay: 5s;
   bottom: -200px;
+  opacity: 0;
 }
 
 @keyframes bar {

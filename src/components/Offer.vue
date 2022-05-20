@@ -1,9 +1,5 @@
 <template>
-  <div
-    class="offer"
-    data-aos="fade-up"
-    data-aos-duration="600"
-  >
+  <div class="offer" data-aos="fade-up" data-aos-duration="600">
     <div class="header">
       <span class="line"></span>
       <h3>WHAT I OFFER</h3>
@@ -11,7 +7,9 @@
 
     <div class="offer-list">
       <div class="item">
-        <div class="icon">icon</div>
+        <div class="icon">
+          <i class="fa-solid fa-chart-column"></i>
+        </div>
         <div>
           <h4>All of our estimate</h4>
           <p>
@@ -21,7 +19,9 @@
         </div>
       </div>
       <div class="item">
-        <div class="icon">icon</div>
+        <div class="icon">
+          <i class="fa-solid fa-user-secret"></i>
+        </div>
         <div>
           <h4>All of our estimate</h4>
           <p>
@@ -31,7 +31,7 @@
         </div>
       </div>
       <div class="item">
-        <div class="icon">icon</div>
+        <div class="icon"><i class="fa-solid fa-gears"></i></div>
         <div>
           <h4>All of our estimate</h4>
           <p>
@@ -41,7 +41,9 @@
         </div>
       </div>
       <div class="item">
-        <div class="icon">icon</div>
+        <div class="icon">
+     <i class="fa-solid fa-arrows-to-circle"></i>
+        </div>
         <div>
           <h4>All of our estimate</h4>
           <p>
