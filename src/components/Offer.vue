@@ -84,6 +84,7 @@ export default {};
   align-items: center;
   margin-top: 10%;
   margin-bottom: 3%;
+  color: #2C3E50;
 }
 
 .header h3 {

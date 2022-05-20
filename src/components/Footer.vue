@@ -33,4 +33,10 @@ export default {};
             font-weight: 900 !important;
             font-style: italic;
       }
+
+      @media screen and (max-width: 420px) {
+      .tel{
+            font-size:13px
+      }
+      }
 </style>

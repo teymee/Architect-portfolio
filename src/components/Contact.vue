@@ -53,6 +53,7 @@ h2 {
   font-size: 70px;
   font-weight: 600;
   letter-spacing: 10px;
+   color: #2C3E50;
 }
 .contact {
   width: 100%;
@@ -149,7 +150,7 @@ h2 {
   font-size: 50px;
   font-weight: 600;
   letter-spacing: 5px;
- 
+
 }
 
 

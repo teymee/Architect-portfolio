@@ -223,7 +223,7 @@ nav li {
   .text {
     position: absolute;
     line-height: 50px;
-    top: 230px;
+    top: 200px;
     animation: text 3s;
     animation-delay: 2780ms;
     animation-fill-mode: forwards;
