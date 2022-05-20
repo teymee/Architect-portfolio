@@ -8,7 +8,9 @@
   },
   "dependencies": {
     "vue": "^3.2.33",
-    "vue-router": "^4.0.14"
+    "vue-router": "^4.0.14",
+    "animate.css": "^4.1.1",
+    "aos": "^2.3.4"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^2.3.1",
