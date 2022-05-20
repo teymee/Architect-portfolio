@@ -1,9 +1,5 @@
 <template >
-  <div
-    class="about"
-    data-aos="fade-up"
-        data-aos-duration="600"
-  >
+  <div class="about" data-aos="fade-up" data-aos-duration="600">
     <h2 class="title-decorative">
       <span class="title-decorative-letter">About</span>
     </h2>
@@ -77,11 +73,6 @@ h2,
   font-size: 80px;
 }
 
-.title-decorative-word {
-  display: block;
-  padding: 0.625em 0.625em 0.625em 2.2em;
-}
-
 .title-decorative-letter {
   position: absolute;
   left: 0.5em;
@@ -152,5 +143,57 @@ h2,
 
 .details {
   padding-bottom: 70px;
+}
+
+@media screen and (max-width: 420px) {
+  .about {
+    display: block;
+    width: 100%;
+    margin-top: 100px;
+    overflow-x: hidden;
+  }
+
+  .title-decorative-letter {
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 120px;
+  }
+
+  .first {
+    width: 90%;
+    margin: auto auto;
+  }
+  .second{
+    width: 80%;
+      margin: auto auto;
+  }
+  .first h3 {
+    font-size: 40px;
+    text-align: right;
+    width: 100%;
+    
+  }
+  .first img {
+    width: 90%;
+  }
+
+.second{
+  margin-top: 50px;
+}
+
+.second h2 {
+  font-size: 60px;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
+.second h3 {
+  font-size: 13px;
+
+  font-weight: 400;
+  margin-top: -10px;
+}
+  
 }
 </style> 

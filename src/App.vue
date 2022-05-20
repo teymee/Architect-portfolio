@@ -22,6 +22,7 @@ import HelloWorld from "@/components/HelloWorld.vue";
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  
 }
 
 ul {

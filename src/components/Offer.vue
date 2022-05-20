@@ -42,7 +42,7 @@
       </div>
       <div class="item">
         <div class="icon">
-     <i class="fa-solid fa-arrows-to-circle"></i>
+          <i class="fa-solid fa-arrows-to-circle"></i>
         </div>
         <div>
           <h4>All of our estimate</h4>
@@ -114,5 +114,44 @@ export default {};
 
 .icon {
   margin-right: 20px;
+}
+@media screen and (max-width: 420px) {
+  .offer-list {
+    display: block;
+    overflow-x: hidden;
+  }
+
+  .header {
+    margin-right: -10px !important;
+    margin-bottom: 80px;
+    width: 90%;
+    padding-top: 80px;
+    
+  }
+
+  .offer span {
+    width: 20%;
+    background: #2c3e50;
+    height: 2px;
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+  .icon {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .header h3 {
+    font-size: 25px;
+    text-transform: capitalize;
+  }
+  .item {
+    width: 90%;
+    display: block;
+    margin: auto auto;
+    text-align: center;
+    margin-bottom: 50px;
+  }
 }
 </style>

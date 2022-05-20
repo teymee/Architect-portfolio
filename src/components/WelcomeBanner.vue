@@ -109,7 +109,7 @@ nav li {
   border-left: 2px solid rgba(219, 219, 233, 0.5);
   height: 400px;
   position: absolute;
-opacity: 0;
+  opacity: 0;
   top: 110px;
   margin-left: -3px;
   animation: rule 4s forwards;
@@ -124,7 +124,7 @@ opacity: 0;
 
   100% {
     left: 1350px;
-      opacity: 1;
+    opacity: 1;
   }
 }
 
@@ -209,5 +209,66 @@ opacity: 0;
   left: 50%;
   transform: translate(-50%, -50%);
   display: none;
+}
+
+@media screen and (max-width: 420px) {
+  .text h1 {
+    font-size: 70px;
+    font-weight: 700;
+  }
+
+  .text {
+    position: absolute;
+    line-height: 50px;
+    top: 200px;
+    animation: text 3s;
+    animation-delay: 2780ms;
+    animation-fill-mode: forwards;
+    opacity: 0;
+  }
+
+  .side-rule {
+    border-left: 2px solid rgba(219, 219, 233, 0.7);
+    height: 300px;
+    position: absolute;
+    opacity: 0;
+    top: 130px;
+    margin-left: -3px;
+    animation: rule 3.5s forwards;
+    animation-delay: 2s;
+  }
+
+  @keyframes rule {
+    0% {
+      left: 0px;
+      opacity: 1;
+    }
+
+    100% {
+      left: 95%;
+      opacity: 1;
+    }
+  }
+
+  .banner, .overlay{
+    height: 90vh;
+    overflow-x: hidden;
+  }
+
+  .bottom-bar {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(204, 204, 219);
+  height: 80px;
+  width: 80%;
+  animation: bar 2s forwards;
+  animation-delay: 5s;
+  bottom: -200px;
+  opacity: 0;
+}
 }
 </style>

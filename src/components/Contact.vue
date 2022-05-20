@@ -120,4 +120,37 @@ form {
   background-color: rgba(249, 249, 249, 0.4);
   padding: 100px;
 }
+
+@media screen and (max-width: 420px) {
+  .contact {
+ display: block;
+   overflow-x: hidden;
+}
+.inner-form {
+  width: 100%;
+}
+form {
+  width: 100%;
+  margin: auto auto;
+}
+.first {
+  display: block;
+  width: 100%;
+}
+.text h3 {
+  font-size: 30px;
+ padding-top: 20px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 50px;
+  font-weight: 600;
+  letter-spacing: 5px;
+ 
+}
+
+
+}
 </style>

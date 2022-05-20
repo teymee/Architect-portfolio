@@ -1,15 +1,9 @@
 <template>
   <div class="portfolio">
     <div
-      class="
-        title-decorative-2
-        wow
-        slideInUp
-        animated
-      "
+      class="title-decorative-2 wow slideInUp animated"
       data-aos="fade-up"
-        data-aos-duration="650"
-      
+      data-aos-duration="650"
       style="visibility: visible; animation-delay: 0s"
     >
       PORTFOLIO
@@ -162,5 +156,64 @@ export default {
   font-size: 25px;
   font-weight: 600;
   font-style: italic;
+}
+
+@media screen and (max-width: 420px) {
+  .portfolio {
+    width: 100%;
+       overflow-x: hidden;
+  }
+
+  .title-decorative-2 {
+    width: 80%;
+    font-size: 70px;
+    font-weight: 600;
+    margin: auto auto;
+    margin-left: 10px;
+  }
+
+  .gallery {
+    width: 100%;
+    margin: auto auto;
+  }
+  .section {
+    display: block;
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height: 900px;
+  }
+
+  .first,
+  .second {
+    width: 90%;
+    margin: auto;
+    padding-bottom: 100px;
+  }
+
+  .second {
+    margin-bottom: -80px;
+  }
+
+  .section img {
+    height: 350px;
+  }
+   .side-note {
+  height: 70px;
+  width: 60%;
+  margin-top: -45px;
+  background-color: #dcdce4;
+  display: block;
+  transition: 1s ease-in-out;
+}
+
+ .container {
+  display: block;
+  padding: 10px;
+}
+.container h3{
+  font-size: 15px !important;
+  font-weight: 600;
+}
 }
 </style>
