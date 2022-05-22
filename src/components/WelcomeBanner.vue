@@ -13,7 +13,7 @@
       <div class="content">
         <div class="text">
           <h4>Hello</h4>
-          <h1>I'M IKAY</h1>
+          <h1>I'M DREMO</h1>
         </div>
         <div class="side-rule"></div>
       </div>
