@@ -227,10 +227,16 @@ nav li {
     font-weight: 700;
   }
 
+.tag{
+  text-align: right;
+  margin-top:5px;
+  font-size: 20px !important;
+  margin-right: -30px;
+}
   .text {
     position: absolute;
     line-height: 50px;
-    top: 200px;
+    top: 165px;
     animation: text 3s;
     animation-delay: 2780ms;
     animation-fill-mode: forwards;
@@ -242,7 +248,7 @@ nav li {
     height: 300px;
     position: absolute;
     opacity: 0;
-    top: 130px;
+    top: 110px;
     margin-left: -3px;
     animation: rule 3.5s forwards;
     animation-delay: 2s;
