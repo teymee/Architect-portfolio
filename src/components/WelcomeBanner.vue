@@ -13,7 +13,8 @@
       <div class="content">
         <div class="text">
           <h4>Hello</h4>
-          <h1>I'M DREMO</h1>
+          <h1>I'M FOLA</h1>
+            <h4 class="tag">and I am an Architect</h4>
         </div>
         <div class="side-rule"></div>
       </div>
@@ -57,6 +58,12 @@ nav {
   font-weight: 500;
 }
 
+.tag{
+  text-align: right;
+  margin-top:10px;
+  font-size: 26px !important;
+  margin-right: -100px;
+}
 nav ul {
   display: flex;
   align-content: center;
